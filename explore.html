@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Liberty NFT Marketplace - Explore Listing Page</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/all.min.css">
+        <link rel="stylesheet" href="css/master.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+        <link rel="icon" href="images/images (9)~2.jpeg" />
+    </head>
+    <body>
+        <!-- ***** Preloader Start ***** -->
+        <div id="js-preloader" class="js-preloader">
+            <div class="preloader-inner">
+                <span class="dot"></span>
+                <div class="dots">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+        <!-- ***** Preloader end ***** -->
+
+        <!-- start header -->
+        <header>
+            <div class="container">
+                <div class="content">
+                    <div class="logo">
+                        <a href="index.html">
+                            <img src="images/logo.png" alt="">
+                        </a>
+                    </div>
+                    <div class="linkes">
+                        <ul>
+                            <li>
+                                <a href="index.html" class="active">Home</a>
+                            </li>
+                            <li>
+                                <a href="explore.html">Explore</a>
+                            </li>
+                            <li>
+                                <a href="details.html">Item Details</a>
+                            </li>
+                            <li>
+                                <a href="author.html">Author</a>
+                            </li>
+                            <li>
+                                <a href="create.html">Create Yours</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="menu">
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- end header -->
+
+        <!-- start page-heading -->
+        <div class="page-heading">
+            <div class="container">
+                <h6>Liberty NFT Market</h6>
+                <h2>Discover Some Top Items</h2>
+                <span>
+                    Home > 
+                    <a href="#">Explore</a>
+                </span>
+            </div>
+            <div class="featured-explore">
+                <div class="container-fluid">
+                    <div class="swiper-explore">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="item">
+                                    <div class="thumb">
+                                        <img src="images/featured-01.jpg" alt="">
+                                        <div class="hover-effect">
+                                            <div class="content">
+                                                <h4>Triple Mutant Ape Bored</h4>
+                                                <span class="author">
+                                                    <img src="images/author.jpg" alt="">
+                                                    <h6>
+                                                        Liberty Artist
+                                                        <br>
+                                                        <a href="#">@libertyart</a>
+                                                    </h6>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="item">
+                                    <div class="thumb">
+                                        <img src="images/featured-02.jpg" alt="">
+                                        <div class="hover-effect">
+                                            <div class="content">
+                                                <h4>Bored Ape Kennel Club</h4>
+                                                <span class="author">
+                                                    <img src="images/author.jpg" alt="">
+                                                    <h6>
+                                                        Liberty Artist
+                                                        <br>
+                                                        <a href="#">@libertyart</a>
+                                                    </h6>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="item">
+                                    <div class="thumb">
+                                        <img src="images/featured-03.jpg" alt="">
+                                        <div class="hover-effect">
+                                            <div class="content">
+                                                <h4>Genesis Club by KMT</h4>
+                                                <span class="author">
+                                                    <img src="images/author.jpg" alt="">
+                                                    <h6>
+                                                        Liberty Artist
+                                                        <br>
+                                                        <a href="#">@libertyart</a>
+                                                    </h6>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="item">
+                                    <div class="thumb">
+                                        <img src="images/featured-04.jpg" alt="">
+                                        <div class="hover-effect">
+                                            <div class="content">
+                                                <h4>Crypto Aurora Guy</h4>
+                                                <span class="author">
+                                                    <img src="images/author.jpg" alt="">
+                                                    <h6>
+                                                        Liberty Artist
+                                                        <br>
+                                                        <a href="#">@libertyart</a>
+                                                    </h6>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end page-heading -->
+
+        <!-- start discover-items -->
+        <div class="discover-items">
+            <div class="container">
+                <div class="section-heading">
+                    <h2>Discover Some Of Our <span>Items</span>.</h2>
+                </div>
+                <from id="search-form" name="gs" method="submit" role="search" action="#">
+                    <fieldset>
+                        <input type="text" name="keyword" class="searchText" placeholder="Type Something..." autocomplete="on" required>
+                    </fieldset>
+                    <fieldset>
+                        <select name="Category" class="form-select" aria-label="Default select example" id="chooseCategory">
+                            <option selected>All Categories</option>
+                            <option value="Music">Music</option>
+                            <option value="Digital">Digital</option>
+                            <option value="Blockchain">Blockchain</option>
+                            <option value="Virtual">Virtual</option>
+                        </select>
+                    </fieldset>
+                    <fieldset>
+                        <select name="Price" class="form-select" aria-label="Default select example" id="chooseCategory">
+                            <option selected>Available</option>
+                            <option value="Ending-Soon">Ending Soon</option>
+                            <option value="Coming-Soon">Coming Soon</option>
+                            <option value="Closed">Closed</option>
+                        </select>
+                    </fieldset>
+                    <fieldset>
+                        <button class="main-button">Search</button>
+                    </fieldset>
+                </from>
+                <div class="box first">
+                    <div class="item">
+                        <div class="banner">
+                            <span>Double Item</span>
+                        </div>
+                        <div class="image">
+                            <span class="author">
+                                <img src="images/author.jpg" alt="">
+                            </span>
+                            <img src="images/discover-01.jpg" alt="">
+                            <h4>Mutant Ape Bored</h4>
+                        </div>
+                        <div class="image">
+                            <span class="author">
+                                <img src="images/author.jpg" alt="">
+                            </span>
+                            <img src="images/discover-02.jpg" alt="">
+                            <h4>His Other Half</h4>
+                        </div>
+                        <div class="text">
+                            <div class="line-dec"></div>
+                            <div class="content">
+                                <span>Current Bid: 
+                                    <br> 
+                                    <strong>8.16 ETH</strong>
+                                </span>
+                                <span>Category: 
+                                    <br> 
+                                    <strong>Digital Art</strong>
+                                </span>
+                                <span>Collection:: 
+                                    <br> 
+                                    <strong>2/2</strong>
+                                </span>
+                                <span>Ends In: 
+                                    <br> 
+                                    <strong>25th Nov</strong>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="button">
+                            <a href="details.html" class="main-button">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="item">
+                        <div class="image">
+                            <span class="author">
+                                <img src="images/author.jpg" alt="">
+                            </span>
+                            <img src="images/discover-03.jpg" alt="">
+                            <h4>Genesis Meta Boom</h4>
+                        </div>
+                        <div class="text">
+                            <div class="line-dec"></div>
+                            <div class="content">
+                                <span>Current Bid: 
+                                    <br> 
+                                    <strong>5.15 ETH</strong>
+                                </span>
+                                <span>Ends In: 
+                                    <br> 
+                                    <strong>26th Nov</strong>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="button">
+                            <a href="details.html" class="main-button">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="item">
+                        <div class="image">
+                            <span class="author">
+                                <img src="images/author.jpg" alt="">
+                            </span>
+                            <img src="images/discover-04.jpg" alt="">
+                            <h4>Another Half Ape</h4>
+                        </div>
+                        <div class="text">
+                            <div class="line-dec"></div>
+                            <div class="content">
+                                <span>Current Bid: 
+                                    <br> 
+                                    <strong>3.63 ETH</strong>
+                                </span>
+                                <span>Ends In: 
+                                    <br> 
+                                    <strong>24th Nov</strong>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="button">
+                            <a href="details.html" class="main-button">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="item">
+                        <div class="image">
+                            <span class="author">
+                                <img src="images/author.jpg" alt="">
+                            </span>
+                            <img src="images/discover-03.jpg" alt="">
+                            <h4>Pixel Sand Box</h4>
+                        </div>
+                        <div class="text">
+                            <div class="line-dec"></div>
+                            <div class="content">
+                                <span>Current Bid: 
+                                    <br> 
+                                    <strong>4.68 ETH</strong>
+                                </span>
+                                <span>Ends In: 
+                                    <br> 
+                                    <strong>28th Nov</strong>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="button">
+                            <a href="details.html" class="main-button">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="item">
+                        <div class="image">
+                            <span class="author">
+                                <img src="images/author.jpg" alt="">
+                            </span>
+                            <img src="images/discover-04.jpg" alt="">
+                            <h4>Another Half Ape</h4>
+                        </div>
+                        <div class="text">
+                            <div class="line-dec"></div>
+                            <div class="content">
+                                <span>Current Bid: 
+                                    <br> 
+                                    <strong>2.03 ETH</strong>
+                                </span>
+                                <span>Ends In: 
+                                    <br> 
+                                    <strong>25th Nov</strong>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="button">
+                            <a href="details.html" class="main-button">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="item">
+                        <div class="image">
+                            <span class="author">
+                                <img src="images/author.jpg" alt="">
+                            </span>
+                            <img src="images/discover-06.jpg" alt="">
+                            <h4>Invisible NFT Land</h4>
+                        </div>
+                        <div class="text">
+                            <div class="line-dec"></div>
+                            <div class="content">
+                                <span>Current Bid: 
+                                    <br> 
+                                    <strong>2.03 ETH</strong>
+                                </span>
+                                <span>Ends In: 
+                                    <br> 
+                                    <strong>25th Nov</strong>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="button">
+                            <a href="details.html" class="main-button">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="item">
+                        <div class="image">
+                            <span class="author">
+                                <img src="images/author.jpg" alt="">
+                            </span>
+                            <img src="images/discover-05.jpg" alt="">
+                            <h4>Another Half Ape</h4>
+                        </div>
+                        <div class="text">
+                            <div class="line-dec"></div>
+                            <div class="content">
+                                <span>Current Bid: 
+                                    <br> 
+                                    <strong>2.64 ETH</strong>
+                                </span>
+                                <span>Ends In: 
+                                    <br> 
+                                    <strong>25th Nov</strong>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="button">
+                            <a href="details.html" class="main-button">View Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end discover-items -->
+
+        <!-- start top-seller -->
+        <div class="top-seller">
+            <div class="container">
+                <div class="section-heading">
+                    <h2>Our Top Sellers This Week.</h2>
+                </div>
+                <div class="content">
+                    <div class="item">
+                        <h4>1.</h4>
+                        <img src="images/author.jpg" alt="">
+                        <h6>
+                            NFT Top Artist
+                            <br>
+                            <a href="#">8.6 ETH or $12,000</a>
+                        </h6>
+                    </div>
+                    <div class="item">
+                        <h4>2.</h4>
+                        <img src="images/author-02.jpg" alt="">
+                        <h6>
+                            George Brandon
+                            <br>
+                            <a href="#">4.8 ETH or $14,000</a>
+                        </h6>
+                    </div>
+                    <div class="item">
+                        <h4>3.</h4>
+                        <img src="images/author-03.jpg" alt="">
+                        <h6>
+                            Johnny Mayson
+                            <br>
+                            <a href="#">6.2 ETH or $26,000</a>
+                        </h6>
+                    </div>
+                    <div class="item">
+                        <h4>4.</h4>
+                        <img src="images/author.jpg" alt="">
+                        <h6>
+                            Liberty Artist
+                            <br>
+                            <a href="#">4.5 ETH or $11,600</a>
+                        </h6>
+                    </div>
+                    <div class="item">
+                        <h4>5.</h4>
+                        <img src="images/author-02.jpg" alt="">
+                        <h6>
+                            Ronald Martino
+                            <br>
+                            <a href="#">7.2 ETH or $14,500</a>
+                        </h6>
+                    </div>
+                    <div class="item">
+                        <h4>6.</h4>
+                        <img src="images/author-03.jpg" alt="">
+                        <h6>
+                            Anthony Brown
+                            <br>
+                            <a href="#">8.6 ETH or $7,400</a>
+                        </h6>
+                    </div>
+                    <div class="item">
+                        <h4>7.</h4>
+                        <img src="images/author.jpg" alt="">
+                        <h6>
+                            Liberty Artist
+                            <br>
+                            <a href="#">9.8 ETH or $14,200</a>
+                        </h6>
+                    </div>
+                    <div class="item">
+                        <h4>8.</h4>
+                        <img src="images/author-02.jpg" alt="">
+                        <h6>
+                            Ronald Martino
+                            <br>
+                            <a href="#">6.5 ETH or $15,000</a>
+                        </h6>
+                    </div>
+                    <div class="item">
+                        <h4>9.</h4>
+                        <img src="images/author-03.jpg" alt="">
+                        <h6>
+                            David Walker
+                            <br>
+                            <a href="#">2.5 ETH or $12,000</a>
+                        </h6>
+                    </div>
+                    <div class="item">
+                        <h4>10.</h4>
+                        <img src="images/author.jpg" alt="">
+                        <h6>
+                            Liberty Artist
+                            <br>
+                            <a href="#">8.8 ETH or $16,800</a>
+                        </h6>
+                    </div>
+                    <div class="item">
+                        <h4>11.</h4>
+                        <img src="images/author-02.jpg" alt="">
+                        <h6>
+                            Anthony Brown
+                            <br>
+                            <a href="#">7.5 ETH or $15,400</a>
+                        </h6>
+                    </div>
+                    <div class="item">
+                        <h4>12.</h4>
+                        <img src="images/author-03.jpg" alt="">
+                        <h6>
+                            David Walker
+                            <br>
+                            <a href="#">5.2 ETH or $12,300</a>
+                        </h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end top-seller -->
+
+        <!-- start footer -->
+        <footer>
+            <div class="container">
+                <p>
+                    Copyright © 2022 
+                    <a href="#">Liberty</a> 
+                    NFT Marketplace Co., Ltd. All rights reserved.
+                    &nbsp;&nbsp;
+                    Designed by 
+                    <a title="HTML CSS Templates" rel="sponsored" href="https://templatemo.com" target="_blank">TemplateMo</a>
+                </p>
+            </div>
+        </footer>
+        <!-- end footer -->
+
+        <script src="js/all.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>
